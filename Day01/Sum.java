@@ -1,7 +1,7 @@
 
 // Write a Java program to find the sum of two numbers 10 and 5. ----------------------
 
- public class Day1{
+ public class Sum{
     public static void main(String[] args){
         int a = 10;
         int b = 5;
