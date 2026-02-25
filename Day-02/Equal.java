@@ -1,4 +1,4 @@
-// Java Program to Check if Two Numbers are Equal --------------------------------
+// Java Program to Check if Two Numbers are Equal ------------------------------
 
 import java.util.*;
 
@@ -10,10 +10,10 @@ public class Equal{
         System.out.print("Enter second number : ");
         int num2 = sc.nextInt();
         if(num1 == num2){
-            System.out.println("Numbers are equal");
+            System.out.println("Numbers are equal.");
         }
         else{
-            System.out.println("Numbers are not equal");
+            System.out.println("Numbers are not equal.");
         }
     }
 }
