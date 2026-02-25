@@ -5,6 +5,6 @@
         int a = 8;
         int b = 4;
         int prod = a * b;
-        System.out.println("Product is : " + prod);
+        System.out.println("Product = " + prod);
     }
 }
