@@ -10,10 +10,10 @@ public class Login{
         System.out.print("Enter Password : ");
         int pass = sc.nextInt();
         if(user == 111 && pass == 222){
-            System.out.println("Login Success.");
+            System.out.println("Login Success");
         }
         else{
-            System.out.println("Wrong Password.");
+            System.out.println("Wrong Password");
         }
     }
 }
