@@ -8,10 +8,10 @@ public class Vowel{
         System.out.print("Enter a character : ");
         char ch = sc.next().charAt(0);
         if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
-            System.out.println("It's vowel.");
+            System.out.println("It's vowel");
         }
         else{
-            System.out.println("It's consonant.");
+            System.out.println("It's consonant");
         }
     }
 }
