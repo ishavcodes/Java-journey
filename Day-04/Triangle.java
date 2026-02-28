@@ -12,7 +12,7 @@ public class Triangle{
         System.out.print("Enter third angle : ");
         int a3 = sc.nextInt();
         if((a1+a2+a3) == 180){
-            System.out.println("Valid Triangle.");
+            System.out.println("Valid Triangle");
         }
         else{
             System.out.println("Not a valid triangle.");
