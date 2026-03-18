@@ -27,7 +27,7 @@ public class RotateKTimes{
 
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter size of array : ");
+        System.out.print("Enter size of an array : ");
         int size = sc.nextInt();
 
         int arr[] = new int[size];
