@@ -5,8 +5,8 @@ import java.util.*;
 public class EquilibriumIndex{
 
     public static int findEquilibrium(int arr[], int n){
-        int totalSum = 0;
-        int leftSum = 0;
+        int TotalSum = 0;
+        int LeftSum = 0;
 
         for(int x : arr) totalSum += x;
 
