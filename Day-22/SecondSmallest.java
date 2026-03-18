@@ -5,8 +5,8 @@ import java.util.*;
 public class SecondSmallest{
 
     public static int findSecondSmallest(int arr[]){
-        int small = Integer.MAX_VALUE;
-        int secondSmallest = Integer.MAX_VALUE;
+        int Small = Integer.MAX_VALUE;
+        int SecondSmallest = Integer.MAX_VALUE;
         for(int i = 0; i < arr.length; i++){
             if(arr[i] < small){
                 secondSmallest = small;
@@ -25,7 +25,7 @@ public class SecondSmallest{
 
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter size of array : ");
+        System.out.print("Enter size of an array : ");
         int size = sc.nextInt();
 
         int arr[] = new int[size];
