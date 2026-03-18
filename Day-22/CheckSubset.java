@@ -25,7 +25,7 @@ public class CheckSubset{
 
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter size of 1st array : ");
+        System.out.print("Enter size of first array : ");
         int size1 = sc.nextInt();
 
         int arr1[] = new int[size1];
@@ -35,7 +35,7 @@ public class CheckSubset{
             arr1[i] = sc.nextInt();
         }
 
-        System.out.print("Enter size of array : ");
+        System.out.print("Enter size of second array : ");
         int size2 = sc.nextInt();
 
         int arr2[] = new int[size2];
