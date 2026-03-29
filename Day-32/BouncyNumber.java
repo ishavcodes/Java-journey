@@ -1,0 +1,26 @@
+// Digits are neither increasing nor decreasing -----------------------
+
+import java.util.*;
+
+public class BouncyNumber{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = Integer.toString(n);
+        boolean inc = false;
+        boolean dec = false;
+        for(int i = 0; i < s.length() - 1; i++){
+            if(s.charAt(i) < s.charAt(i+1)){
+                inc = true;
+            }
+            if(s.charAt(i) > s.charAt(i+1)){
+                dec = true;
+            }
+        }
+        if(inc == true && dec == true){
+            System.out.println("Bouncy Number.");
+        }else{
+            System.out.println("Not Bouncy Number.");
+        }
+    }
+}
