@@ -1,0 +1,22 @@
+// Sum of preceding three terms ------------------------------
+
+import java.util.*;
+
+public class Tribonacci {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int terms = sc.nextInt();
+        int a = 0, b = 0, c = 1;
+        if(terms >= 1) System.out.print(a + " ");
+        if(terms >= 2) System.out.print(b + " ");
+        if(terms >= 3) System.out.print(c + " ");
+        
+        for(int i = 3; i < terms; i++) {
+            int d = a + b + c;
+            System.out.print(d + " ");
+            a = b; 
+            b = c; 
+            c = d;
+        }
+    }
+}
